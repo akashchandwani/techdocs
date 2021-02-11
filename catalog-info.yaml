@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "techdocs"
+  description: "techdocs"
+  annotations:
+    github.com/project-slug: akashchandwani/techdocs
+    backstage.io/techdocs-ref: url:https://github.com/akashchandwani/techdocs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "akashchandwani"
